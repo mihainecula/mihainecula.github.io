@@ -1,0 +1,91 @@
+body {
+	background: #ebebeb url(images/background.gif) no-repeat scroll 0px 0px;
+	padding: 0px;
+	margin: 0px;
+	font: 10pt Trebuchet MS;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: purple;
+	font-weight: bold;
+	letter-spacing:0.2px;
+	//text-decoration: underline;
+}
+
+#wrapper {
+	padding: 40px 0px 0px 0px;
+	margin: 70px 0px 0px 25px;
+}
+
+#leftColumn {
+	float: left;
+	width: 250px;
+	margin-right: 25px;
+}
+
+#rightColumn {
+	float: left;
+	width: 700px;
+}
+
+.columnItem {
+	background-color: #fff;
+	margin-bottom: 45px;
+}
+
+.columnItem .columnHeader {
+	background: #1e90ff url(images/headerbg.gif) repeat-x scroll left;
+	height: 7px;
+	font-size: 0px;
+	width: 100%;
+}
+
+.columnItem .columnHeader h1.headerText {
+	position: relative;
+	top: -45px;
+	color: #3866ff;
+	font: normal normal bold 40px Trebuchet MS;
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.columnItem .columnContent {
+	margin: 0px;
+	padding: 15px;
+}
+
+.columnItem .columnContent ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.columnItem .columnContent ul li img {
+	margin: 5px 5px -4px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#rightColumn .columnItem .columnContent ul {
+	list-style: circle;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 10pt;
+}
+
+h3 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12pt;
+}
